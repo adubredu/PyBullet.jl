@@ -1,6 +1,6 @@
 # PyBullet.jl
 
-A light-weight Julia wrapper for the ubiquitous [PyBullet](https://github.com/bulletphysics/bullet3) package.
+A light-weight Julia wrapper for the awesome [PyBullet](https://github.com/bulletphysics/bullet3) package.
 
 ## Installation
 1. Open your Julia REPL by typing  `julia` in your terminal.
