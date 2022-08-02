@@ -5,7 +5,7 @@ A light-weight Julia wrapper for the ubiquitous [PyBullet](https://github.com/bu
 ## Installation
 1. Open your Julia REPL by typing  `julia` in your terminal.
 2. Press `]` on your keyboard to enter the package manager
-3. Enter command `add https://github.com/adubredu/PyBullet.jl"` and press 
+3. Enter command `add https://github.com/adubredu/PyBullet.jl` and press 
 `Enter` on your keyboard to install this package.
 4. Press the `Backspace` key on your keyboard to return to the REPL
 
@@ -17,7 +17,7 @@ See the [examples](examples) folder for usage examples.
 ## But...why?
 PyBullet is cool, Julia is cooler so they were bound to be together...at some point.
 
-### Why didn't you instead create Bullet.jl
+## Why didn't you instead create Bullet.jl
 The PyBullet package is essentially Python bindings for the [Bullet C++ library](https://github.com/bulletphysics/bullet3).
 
 It seems like the more astute thing to do (for performance concerns) is to create a Julia wrapper for the core Bullet C++ library instead of creating a Julia wrapper for a Python wrapper of a C++ library. However, the great [Erwin Coumans](https://github.com/erwincoumans) (Creator of Bullet and PyBullet), has created some really cool features in PyBullet, especially for Reinforcement learning applications, that might not be easily accessible when using the raw Bullet C++ library. 
