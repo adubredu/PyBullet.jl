@@ -4,7 +4,7 @@ A light-weight Julia wrapper for the awesome [PyBullet](https://github.com/bulle
 
 ## Installation
 Open your Julia REPL by typing  `julia` in your terminal, Press `]` on your keyboard to enter the package manager and enter the following commands
-julia```
+```
 pkg> add https://github.com/adubredu/PyBullet.jl
 pkg> add CondaPkg
 pkg> # press backspace on the keyboard
