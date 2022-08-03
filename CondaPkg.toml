@@ -1,3 +1,5 @@
+channels = ["anaconda", "conda-forge"]
+
 [deps]
 python = "3.8"
-pybullet = "3.21"
+pybullet = ""
