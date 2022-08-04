@@ -3,15 +3,11 @@
 A light-weight Julia wrapper for the awesome [PyBullet](https://github.com/bulletphysics/bullet3) package.
 
 ## Installation
-Open your Julia REPL by typing  `julia` in your terminal, Press `]` on your keyboard to enter the package manager and enter the following commands
-```
-pkg> add https://github.com/adubredu/PyBullet.jl
-pkg> add CondaPkg
-pkg> # press backspace on the keyboard
-julia> using CondaPkg
-julia> ]
-pkg> conda add pybullet
-``` 
+1. Open your Julia REPL by typing  `julia` in your terminal.
+2. Press `]` on your keyboard to enter the package manager
+3. Enter command `add https://github.com/adubredu/Pybullet.jl` and press 
+`Enter` on your keyboard to install this package.
+4. Press the `Backspace` key on your keyboard to return to the REPL
 
 ## Usage
 See the [examples](examples) folder for usage examples.
