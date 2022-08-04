@@ -1,2 +1,6 @@
 [deps]
 pybullet = ""
+python = "=3.8"
+
+[pip.deps]
+pybullet-planning = ""

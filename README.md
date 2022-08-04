@@ -13,6 +13,9 @@ A light-weight Julia wrapper for the awesome [PyBullet](https://github.com/bulle
 ## Usage
 See the [examples](examples) folder for usage examples.
 
+## Features
+Alongside having the full features of PyBullet, this Julia package also wraps [Caelan Garrett](https://github.com/caelan)'s very useful [pybullet_planning](https://pybullet-planning.readthedocs.io/en/latest/) Python package, which provides implementations of numerous sampling-based motion planning algorithms and other handy utility functions for PyBullet. 
+
 
 ## But...why?
 PyBullet is cool, Julia is cooler so they were bound to be together...at some point.
@@ -20,7 +23,7 @@ PyBullet is cool, Julia is cooler so they were bound to be together...at some po
 ## Why didn't you instead create Bullet.jl
 The PyBullet package is essentially Python bindings for the [Bullet C++ library](https://github.com/bulletphysics/bullet3).
 
-It seems like the more astute thing to do (for performance concerns) is to create a Julia wrapper for the core Bullet C++ library instead of creating a Julia wrapper for a Python wrapper of a C++ library. However, the great [Erwin Coumans](https://github.com/erwincoumans) (Creator of Bullet and PyBullet), has created some really cool features in PyBullet, especially for Reinforcement learning applications, that might not be easily accessible when using the raw Bullet C++ library. 
+It seems like the more astute thing to do (for performance concerns) is to create a Julia wrapper for the core Bullet C++ library instead of creating a Julia wrapper for a Python wrapper of a C++ library. However, the great [Erwin Coumans](https://github.com/erwincoumans) (Creator of Bullet and PyBullet), has created some really cool features in PyBullet, especially for Reinforcement learning applications, that might not be easily accessible when using the raw Bullet C++ library. PyBullet also as arguably the best and most convenient API of any robotics simulator.
 
 And since it is waaay easier to create this Julia wrapper for the PyBullet Python module than it is to create a Julia wrapper for the Bullet C++ library, 
 
